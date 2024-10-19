@@ -23,7 +23,7 @@ def test_price_setter_neg(product_test, capsys):
     captured = capsys.readouterr()
     assert "Цена не должна быть нулевая или отрицательная" in captured.out
 
-
+#
 # def test_price_setter_change(capsys, product_test):
 #     with patch('builtins.input', return_value='y'):
 #         product_test.price = 1000.0
@@ -31,8 +31,8 @@ def test_price_setter_neg(product_test, capsys):
 #         expected_output = 'Цена ниже изначальной: 180000.0 -> 1000.0. Понизить цену? (y/n)'
 #         assert captured.out.strip() == expected_output
 #         assert product_test.price == 1000.0
-
-
+#
+#
 # def test_new_product():
 #     new_product = Product.new_product({"name": "Samsung Galaxy C23 Ultra",
 #                 "description": "256GB, Серый цвет, 200MP камера",

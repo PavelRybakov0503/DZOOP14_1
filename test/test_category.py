@@ -1,4 +1,4 @@
-from tests.conftest import category_1, category_2
+from test.conftest import category_1, category_2
 
 
 def test_category(category_1):
